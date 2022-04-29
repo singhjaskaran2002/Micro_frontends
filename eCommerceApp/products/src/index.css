@@ -1,0 +1,56 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(113, 69, 155);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    background-color: rgb(81, 15, 143);
+    color: #fff;
+    font-size: 20px;
+    /* font-weight: 600; */
+    padding: 20px 30px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    /* margin-top: 1000px; */
+    bottom: 0;
+}
+
+.web-body {
+    margin: 20px 200px;
+}
+
+.float-right {
+    float: right;
+}
+
+.product-div {
+    margin-bottom: 30px;
+    height: 250px;
+    box-shadow: 5px 5px 25px #ccc;
+    padding: 20px 60px;
+}
+
+.checkout-btn {
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.product-image img {
+    border-radius: 1000px !important;
+    box-shadow: 2px 2px 25px #ccc;
+    width: 210px;
+    height: 210px;
+}
